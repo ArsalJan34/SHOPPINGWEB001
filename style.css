@@ -15,3 +15,62 @@ body{
 img{
     width: 100%;
 }
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:rgb(244, 242, 242);
+    box-shadow: 0 8px 11px rgb(14 55 54 / 15%);
+    padding: 20px;
+    transition: .3s ease;
+
+}
+.profile {
+    display: flex    ;
+    align-items: center;
+    column-gap: 0.5rem;
+    cursor: pointer;
+}
+.profile img{
+    width:40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.profile span{
+    font-size: 13px;
+    font-weight: 500;
+}
+.navbar{
+    display: flex;
+  column-gap: 0.5rem;
+}
+.navbar a{
+    color: black;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: black;
+    column-gap: 0.5rem;
+}
+.logo .bx{
+color: orangered;
+font-size: 30px;
+}
+.navbar a:hover{
+    background: green;
+    border-radius: 5rem;
+    color: white;
+    transition: background 0.5s;
+}
