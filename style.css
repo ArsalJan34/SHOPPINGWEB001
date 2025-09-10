@@ -68,9 +68,19 @@ header{
 color: orangered;
 font-size: 30px;
 }
-.navbar a:hover{
+.navbar a:hover,
+.navbar .home-active{
     background: green;
     border-radius: 5rem;
     color: white;
     transition: background 0.5s;
+}
+#menu-icon{
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+section{
+    padding: 4.5rem 0 1.5rem;
 }
